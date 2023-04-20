@@ -15,8 +15,7 @@ const databaseConfig={
     'port': 5432,
     'database': 'delivery_db',
     'user': 'postgres',
-    'password': 'j1o1s1u1e1'
+    'password': 'admin'
 };
-
 const db = pgp(databaseConfig);
 module.exports = db;

@@ -4,7 +4,8 @@
   "description": "back end aplicacion delivery",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [
     "flutter",
@@ -20,6 +21,16 @@
     "express": "^4.18.2",
     "http": "^0.0.1-security",
     "morgan": "^1.10.0",
-    "pg-promise": "^11.4.3"
-  }
+    "nodemon": "^2.0.22",
+    "pg-promise": "^11.4.3",
+    "pgpromise": "^0.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Josue0625/server_node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Josue0625/server_node/issues"
+  },
+  "homepage": "https://github.com/Josue0625/server_node#readme"
 }

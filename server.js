@@ -20,17 +20,17 @@ app.set('port', port);
 //Llamando a las rutas
 
 users(app);
-
-server.listen(3000,'127.0.0.1'||'localhost',function() {
+//el 127.0.0.1 se debe reemplazar por la ip de la maquina, se puede ver con ipconfig /all en windows
+server.listen(3000,'172.16.102.144'||'localhost',function() {
     console.log('Aplicacion NodeJs id=>'+process.pid+' puerto =>'+port+' iniciando...');
 });
 
 /* app.get('/', (req, res)=> {
 
-    res.sendFile('Ruta raiz del backend');
+    res.send('Ruta raiz del backend');
 
-});
-
+}); */
+/*
 app.get('/una', (req, res)=> {
 
     res.sendFile('Ruta una del backend');
